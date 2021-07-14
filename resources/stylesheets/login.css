@@ -1,0 +1,57 @@
+body {
+	background-image:url("<?= $imagepath ?>/login/body.jpg");
+	background-position:20% 72px;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+div.loginheader {
+	background-position:20% 0px;
+	background-repeat:no-repeat;
+	height:71px;
+	border-bottom:1px solid #0f6c91;
+}
+
+div.loginbox {
+	margin:80px auto 0px auto;
+	width:600px;
+	height:170px;
+	border:1px solid #0f6c91;
+	background-color:#fff;
+	text-align:left;
+}
+div.loginbox h1 {
+	margin:10px 0px 20px 50px;
+	color:#000;
+	font-size:12px;
+	line-height:12px;
+	font-weight:bold;
+}
+div.loginbox form {
+	margin:0px 0px 0px 50px;
+}
+div.loginbox form label {
+	font-weight:normal;
+}
+div.loginbox form label.ww {
+	margin-top:10px;
+}
+div.loginbox form label.ww, div.loginbox form label.ww a:link, div.loginbox form label.ww a:visited {
+	font-size:10px;
+}
+div.loginbox form .inputtext {
+	width:150px;
+}
+div.loginbox form .submit {
+	width:100px;
+	margin:5px 0px 0px 56px;
+}
+div.loginbox p {
+	margin-left: 50px;
+}
+
+div.loginbox p.error, div.loginbox p.msg_error, div.loginbox p.msg_warning {
+	color: red;
+}
+div.loginbox p.success {
+	color: green;
+}

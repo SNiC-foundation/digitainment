@@ -1,0 +1,25 @@
+div.handboek_item_0 {
+  padding: 4px;
+  margin: 0 0 12px 0; 
+}
+
+div.handboek_item_1 {
+  padding: 4px;
+  margin: 0 0 12px 0;
+  background-color: #E5F4FA;  
+}
+
+a.handboek_title {
+  font-size: 15px;
+  font-weight: bold;  
+}
+
+div.handboek_description {
+  font-size: smaller;
+    
+}
+
+div.handboek_doctype {
+    width: 100%;
+    text-align: right;
+}

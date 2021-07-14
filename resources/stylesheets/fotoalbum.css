@@ -1,0 +1,44 @@
+form label {
+	float:left;
+	display:block;
+	width:140px;
+	font-weight:bold;
+}
+form select.projectpulldown {
+	width:450px;
+}
+form input.submitbutton {
+	margin-left:510px;
+	width:80px;
+}
+
+div.fotobox {
+	display:block;
+	width:200px;
+	float:left;
+	margin:0px 5px 5px 0px;
+}
+
+div.fotobox img {
+	border:1px solid #000;
+	margin-right:3px;
+}
+div.cleardiv {
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+}
+/*
+div.fotoalbum div.photo {
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+div.fotoalbum div.photo h2 {
+	margin-left: 20px;
+}
+
+div.fotoalbum div.photo p {
+	color: green;
+}
+*/

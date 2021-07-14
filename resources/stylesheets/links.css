@@ -1,0 +1,73 @@
+
+div.catbox {
+	float:left;
+	width:204px;
+	height:50px;
+	padding:3px;
+	margin:0px 20px 10px 0px;
+}
+div.catblock {
+	clear:both;
+	margin:0px 0px 6px 0px;
+	padding:3px 0px 3px 0px;
+	width:700px;
+}
+div.cleardiv {
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+}
+div.linkbox {
+	float:left;
+	width:155px;
+	height:30px;
+	padding:3px;
+	margin:0px 10px 10px 0px;
+	border:1px solid #008bc1;
+	background-color:#fff;
+	color:#777;
+	font-size:10px;
+	line-height:11px;
+	position:relative;
+	z-index:1;
+}
+
+
+a.uitleg:link, a.uitleg:visited
+{
+  position: absolute;
+  right:5px;
+  top:5px;
+  display: block;
+  width: 7px;
+  height: 7px;
+  overflow: hidden;
+  font-weight:normal;
+  background-image: url(<?= $imagepath ?>/icons/moreinfo.gif);
+  background-repeat: no-repeat;  
+  background-color: #fff;
+	color:#777;
+	text-indent:10px;
+  font-size:10px;
+	line-height:11px;
+}
+a.uitleg:link div, a.uitleg:visited div
+{ display: none; }
+a.uitleg:hover
+{
+  overflow: visible;
+  border: 1px solid #008bc1;
+  border-right: 2px solid #008bc1;
+  border-bottom: 2px solid #008bc1;
+  padding: 2px;
+  width: 180px;
+  height: auto;
+  background-image: none;
+  z-index: 1000000;
+	text-indent:0px;
+}
+a.uitleg:hover div
+{
+  display: block;
+  font-weight: normal;
+}

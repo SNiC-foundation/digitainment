@@ -1,0 +1,44 @@
+
+/* DISABLE MAIN COMPONENTS */
+div.header {
+    display: none;
+}
+
+div.menu {
+    display: none;
+}
+
+div.breadcrumbs {
+    display: none;
+}
+
+div.footer {
+    display: none;
+}
+
+div.medewerker_header {
+    display: none;
+}
+
+div.medewerker_item_odd {
+    display: none;
+}
+
+div.medewerker_item_even {
+    display: none;
+}
+
+h1.title {
+    display: none;
+}
+
+p.medewerker_waarschuwing {
+    display: none;
+}
+
+/* SET NEW COMPONENTS */
+div.printArea { 
+    position:absolute; 
+    left:0px; 
+    top:0px; 
+}   

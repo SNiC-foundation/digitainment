@@ -1,0 +1,63 @@
+div.index {
+    left: 25px;
+    background-color: #1F3FB9;
+    width: 350px;
+    margin: 20px 0px 0px 0px;
+    padding: 12px;
+    border: 1px solid #576FC7;
+}
+
+img.pasfoto {
+    border: 1px solid #fff;
+    height: 100px;
+}    
+div.foto {
+    position: relative;
+    float: left;
+    padding: 3px;
+    width: 110px;
+}
+
+div.spreker_header {
+    position: relative;
+    float: left;
+    width: 280px;
+    padding: 5px;
+}
+
+div.spreker {
+    background-color: #1F3FB9;    
+    border: 1px solid #576FC7;
+    padding: 4px;
+}
+    
+div.links {
+    clear: both;
+    padding: 3px;
+}               
+
+div.links a {
+    font-size: 10px;
+}
+
+div.name {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+div.bio {
+    clear: both;
+    padding: 5px;
+    width: 390px;
+}
+
+div.lecture {
+    clear: both;
+    padding: 5px;
+    width: 390px;
+}
+
+a img.icon {
+    border: none;
+}

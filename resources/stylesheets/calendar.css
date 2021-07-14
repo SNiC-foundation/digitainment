@@ -1,0 +1,42 @@
+div.maandholder {
+	float:left;
+	margin:5px 10px 0px 0px;
+	position:relative;
+}
+.maand {
+	background-color:#e8e8e8;
+}
+.maand tr td {
+	background-color:#fff;
+}
+.maand tr.darkcolor td {
+	background-color:#e8e8e8;
+}
+.today {
+	background-color:#e5f4fa !important;
+	border:1px solid #000;
+}
+
+.uitleg {
+	position:absolute;
+	left:0px;
+	width:220px;
+	background-color:#fff;
+	border:1px solid #000;
+	border-right:2px solid #000;
+	border-bottom:2px solid #000;
+	z-index:100000;
+	display:none;
+	padding:3px;
+	font-size:10px;
+	line-height:10px;
+}
+
+
+
+
+div.cleardiv {
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+}

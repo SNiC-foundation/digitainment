@@ -1,0 +1,291 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#fff;
+	background-image:url(../images/global/bg.gif);
+	background-position:308px 0px;
+	background-repeat:repeat-y;
+}
+
+.container {
+	width:754px;
+}
+
+.leftcol {
+	width:308px;
+	float:left;
+	height:686px;
+	background-image:url(../images/global/menubg.jpg);
+	background-position:0px 140px;
+	background-repeat:no-repeat;
+}
+
+.rightcol {
+	width:442px;
+	padding-right:4px;
+	float:left;
+}
+
+.header {
+	height:128px;
+	background-image:url(../images/global/header.gif);
+	background-repeat:no-repeat;
+}
+
+ul.languages {
+	list-style:none;
+	margin:5px 5px 0px 0px;
+	padding:0px;
+	float:right;
+}	
+ul.languages li {
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+ul.languages li a:link, ul.languages li a:visited {
+	display:block;
+	width:22px;
+	height:16px;
+	background-repeat:no-repeat;
+	margin-left:3px;
+	border: none;
+}
+.langen { background-image:url(../images/global/flag_en.gif);}
+.langnl {	background-image:url(../images/global/flag_nl.gif);}
+ul.languages li a span {
+	display:none;
+}
+
+.fillerimg {
+	height:180px;
+}
+
+.content {
+	color:#d6dfff;
+	padding:10px 10px 10px 10px;
+	background-image:url(../images/global/contentbg.gif);
+	background-repeat:no-repeat;
+	height: 100%;
+	width: 420px;
+}
+
+.content h1 {
+    width: 50%;
+    line-height: 17px;
+    font-weight: bold;
+    color: #fff;   
+}
+
+.content a:link, .content a:visited {
+	color:#fff;
+	font-weight:bold;
+	text-decoration: none
+}
+    
+
+.leftcol h1 {
+	margin:0px;
+}
+.leftcol h1 a:link, .leftcol h1 a:visited {
+	display:block;
+	width:308px;
+	height:140px;
+	background-image:url(../images/global/logo2.jpg);
+	background-repeat:no-repeat;
+	border: none;
+}
+.leftcol h1 span {
+	display:none;
+}
+
+
+.leftcol a {
+    border: none;
+}
+
+.footer {
+	clear:both;
+	background-image:url(../images/global/bg_footer.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	height: 140px;
+	padding: 0px 10px 0px 314px;
+	width: 430px;
+}
+
+.footer a:link, .footer a:visited {
+    color: #fff;
+    font-weight: normal;
+    font-size: 9px;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+
+.footer div.clear {
+    clear: both;
+    height: 118px;
+}
+
+table tr th {
+	text-align:left;
+	color:#fff;
+	font-weight:bold;
+	background-color:#00a4e3;
+	padding-left:2px;
+}
+
+div.banners {
+    position: relative;
+    height:18px;
+	top: 350px;
+	left: 50px;
+	color: #122059;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+div.banners a img{
+    border: none;
+}
+
+div.crumbs {
+    color: #fff;
+    text-align: right;
+}
+div.crumbs a:link, div.crumbs a:visited {
+    font-size: 9px;
+    font-weight: bold;
+    margin: 6px 6px 0px 0px;
+    color: #fff;
+}
+
+
+/******** Menu **************/
+
+/** Main menu stuff */
+
+/** Main menu stuff */
+div.menu {
+	margin:5px 5px 5px 5px;
+	position:relative;
+	height:18px;
+	width: 200px; 
+	top: 75px;
+	left: 50px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+div.menu ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+div.menu li {
+	position:relative;
+	z-index:9;
+}
+
+div.menu ul li.root {
+    display:block;
+    padding-left: 30px;
+    background-color:transparent;
+    width:150px;
+    position:relative;
+    color:#122059;
+    font-weight: bold;
+    margin-bottom: 4px;
+    line-height: 20px;
+}
+
+div.menu ul li.root:hover {
+    background-image: url(../images/global/menu_switch.gif);
+    background-repeat: no-repeat;
+    background-position: center left;	
+    color: #F65700;
+}
+
+div.menu li a {
+    padding-left: 10px;
+}
+
+div.menu li:hover {
+	z-index:15;
+}
+div.menu li ul li:hover {
+	z-index:15;
+}
+
+div.menu li a:link, div.menu li a:visited {
+    display:block;
+    background-image: url(../images/global/menu_transparant.gif);
+    background-repeat: repeat-y;
+    width:160px;
+    line-height:20px;
+    color: #122059;
+    font-family: arial, sans-serif;
+    border-bottom: none; 
+}
+
+div.menu ul li a:hover {
+    color: #F65700;
+}
+ 
+div.menu li:hover ul {
+    display:block;
+}
+ 
+div.menu ul ul {
+    position:absolute;
+    left:150px;
+    padding: 0px 0px 0px 10px;
+    top:0px;
+    width: 160px;
+    display:none;
+}
+
+div.menu ul ul ul {
+    top: 0px;
+    margin:0px;
+    left: 160px;
+    
+}
+
+div.menu ul ul ul ul {
+	right:110px;
+}
+
+div.menu li:hover ul ul {
+	display:none;
+	
+}
+div.menu li:hover li:hover ul ul {
+	display:none;
+}
+
+div.menu li:hover ul, div.menu li:hover li:hover ul, div.menu li:hover li:hover li:hover ul {
+	display:block;
+}
+
+div.menu ul ul li {
+   display: block;
+
+}
+
+
+
+/******************************/
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}

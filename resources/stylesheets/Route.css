@@ -1,0 +1,50 @@
+ul.route_item {
+  margin: 0 0 12px 12px; 
+}
+
+a.route_header {
+  font-size: 13px;
+  font-weight: bold;  
+}
+
+li.route_item_adres {
+  font-size: smaller;
+    
+}
+
+table.route_table {
+    border: none;
+    width:  410px;
+    overflow: hidden;
+}
+
+td.route_key {
+  font-weight: bold;
+  width: 100px;
+  vertical-align: top;
+  padding: 4px;
+}
+
+td.route_value {
+  width: 310px;
+  vertical-align: top;
+  padding: 4px;
+}
+
+div.print_route_kaart {
+    display: none;
+}
+
+img.route_kaart {
+    border: none;
+}
+
+p.route_warning {
+    font-style: italic;
+}
+
+input.route_print_button {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}

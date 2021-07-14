@@ -1,0 +1,49 @@
+
+td.label {
+  border: 1px solid;
+}
+
+div.vacaturecorr h4, div.vacaturebezoekadres h4, div.vacaturepostadres h4 {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.vacatureitem {
+  border: 1px solid #AAA;
+  padding: 4px;
+  margin: 0 0 12px 0;
+  
+}
+
+h2 {
+	font-size:11px;
+	line-height:15px;
+	color:#fff;
+	padding: 0px 5px 0px 16px;
+	margin:10px 0px 3px 0px;
+
+	display:block;
+	background-color:#00a4e3;
+	border: 1px solid #00648B;
+	background-image:url("<?= $imagepath ?>/icons/block.gif");
+	background-repeat:no-repeat;
+	background-position:5px 50%;
+}
+div.vacatureitem h3 {
+	margin: 0px;
+}
+
+div.vacatureinfo{
+	font-size: smaller;
+	margin-bottom: 12px;
+	color: #777;
+}
+
+div.vacaturecorr {
+  border: 1px solid #AAA;
+  padding: 4px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  clear: both;
+}

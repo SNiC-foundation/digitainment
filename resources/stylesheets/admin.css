@@ -1,0 +1,149 @@
+form.admin a img {
+	border: 0;
+}
+
+form.admin fieldset.noborder {
+	border: 0;
+}
+
+form.admin fieldset legend {
+	padding: 5px;
+}
+
+form.admin input {
+	float: left;
+}
+
+form.admin br {
+	clear: left;
+}
+
+form.admin textarea {
+	width: 300px;
+	height: 80px;
+}
+
+form.admin fieldset.floating fieldset {
+	float: left;
+}
+
+/*form.admin fieldset.inputcontainer {
+	padding-bottom: 10px;
+}*/
+
+form.admin fieldset.inputcontainer input {
+	margin-left: 130px;
+}
+
+form.admin fieldset.inputcontainer label {
+	width: auto;
+}
+
+form.admin fieldset.checkboxcontainer label {
+	text-align: left;
+	margin: left: 10px;
+}
+
+form.admin label.right {
+	margin-left: 10px;
+	text-align: left;
+	width: auto;
+}
+
+form.admin table {
+	background: transparent;
+}
+
+form.admin table label {
+	margin: 2px;
+	text-align: left;
+	width: auto;
+}
+
+form.admin ul.tree input, form.admin ul.tree label {
+	display: inline;
+	float: none;
+}
+
+form.admin ul.tree ul.visible {
+	display: block;
+}
+
+form.admin ul.tree ul.hidden {
+	display: none;
+}
+
+form.admin label.invalid {
+	color: red;
+}
+
+/***** DATE INPUT *****/
+.dateinput { float: left; }
+.dateinput .field { width: 11ex; }
+.calcontainer 
+           { float: left; 
+	   }
+.calendar  { width: 13.9em; 
+	     border: 1px solid gray;
+	     background: white;
+             position: absolute;
+	     visibility: hidden;
+	     margin-left: -14ex;
+	     z-index: 1;
+	   }
+.days      { text-align: center;
+	   }
+.days table 
+           { border-collapse: collapse;
+	     margin-left: auto;
+	     margin-right: auto;
+	     text-align: center;
+           }
+.days th   { background: #aaa; }	   
+.day       { width: 2em; 
+             padding: 0;
+	     background: white;
+           }
+.weekend   { background: #eee; }
+.active    { background: #ccf; }
+.weekend.active { background: #ddf; }
+.selected, .weekend.selected { border: 1px solid red; }
+a.daylink, a.daylink:link, a.daylink:visited  
+           { display: block; 
+             text-decoration: none; 
+	     color: black;
+	     width: 100%;
+	     border: 1px solid white;
+	   }
+a.daylink:hover { background: black; color: #cff; }
+.monthyear { width: 13.8em;
+             text-align: center;
+	   }
+
+/***** FILE UPLOADS ********/
+
+form.admin div.fullimage {
+	margin-left: 130px;
+	display: inline;
+	position: absolute;
+}
+
+form.admin div.fullimage div.hidden {
+	display: none;
+}
+
+form.admin div.fullimage div.visible {
+	display: block;
+	background: white;
+	border: 1px dotted gray;
+	padding: 5px;
+	position: absolute;
+}
+
+form.admin div.upload_current span {
+	margin-left: 130px;
+}
+
+form.admin div.upload_current span {
+	font-weight: bold;
+}
